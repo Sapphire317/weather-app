@@ -50,7 +50,7 @@ export default class App extends Component {
         {isLoaded? (
           <Weather 
           city={city} 
-          weatherName={"Snow"} 
+          weatherName={name} 
           temp={Math.floor(temperature - 273.15)}/>
         ) : 
         <View style={styles.loading}>
